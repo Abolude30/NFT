@@ -1,0 +1,276 @@
+body{
+    background: hsl(217, 54%, 11%);
+    text-align: -webkit-center;
+}
+
+main{
+    width: 23%;
+    background: hsl(216, 50%, 16%);
+    text-align: -webkit-center;
+    border-radius: 15px;
+    padding-top: 15px;
+    margin-top: 77px;
+}
+
+.card{
+    width: 100%;
+}
+
+#card-img{
+    width: 90%;
+    height: 250px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+
+
+#one  {
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    width: 272px;
+}
+
+#one:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+#two{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    color:hsl(0, 0%, 100%) ;
+    text-align: left;
+    width: 272px;
+}
+
+span{
+    display: flex;
+    /* display: flex;
+    text-align: left;
+    width: 272px; */
+}
+
+span div{
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+}
+
+#three{
+    font-family: 'Outfit', sans-serif;;
+    width: 82px;
+}
+
+.three{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+
+#four{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    color:hsl(0, 0%, 100%) ;
+    
+}
+
+.four{
+    margin-left: 87px;
+      cursor: pointer;
+}
+
+.divide{
+    border-top: 0.1px solid hsl(215, 32%, 27%);
+}
+
+
+footer{
+    padding-top: 3px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    padding-left: 17px;
+}
+
+footer img{
+    width: 11%;
+    object-fit: contain;
+    border: 0.1px solid white;
+    border-radius: 50%;
+    height: 30px;
+}
+
+#five{
+    font-size: 14px;
+    margin-left: 7px;
+    margin-right: 9px;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+#six{
+    font-size: 15px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+
+#six:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+
+.overlay{
+    position: absolute;
+    top: 92px;
+    left: 544px;
+    width: 278px;
+    height: 250px;
+    border-radius: 11px;
+    background : hsl(178, 100%, 50%);
+    opacity: 0;
+    transition: opacity 0.25s;
+    cursor: pointer;
+    text-align: center;
+  }
+
+.overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+  }
+  
+.overlay:hover{
+    opacity: 0.76; 
+    background : hsl(178, 100%, 50%);
+    background: opacity 0.25;
+}
+
+.overlay:hover > *{
+    transform: translateY(0);
+  }
+
+
+#view{
+    margin-top: 93px;
+    opacity: 1;
+}
+
+
+
+
+
+@media (min-width: 350px) and (max-width: 1265px) {
+
+    body{
+        background: hsl(217, 54%, 11%);
+        text-align: -webkit-center;
+    }
+
+    main{
+        width: 50%;
+        background: hsl(216, 50%, 16%);
+        text-align: -webkit-center;
+        border-radius: 15px;
+        padding-top: 15px;
+        margin-top: 77px;
+    }
+
+
+    #one  {
+        font-size: 18px;
+        color: hsl(0, 0%, 100%);
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
+        text-align: left;
+        margin-left: 15px;
+        /* width: 272px; */
+    }
+    
+    #one:hover{
+        cursor: pointer;
+        color: hsl(178, 100%, 50%);
+    }
+    
+    #two{
+        font-family: 'Outfit', sans-serif;
+        font-weight: 100;
+        color:hsl(0, 0%, 100%) ;
+        text-align: left;
+        margin-left: 15px;
+        /* width: 272px; */
+    }
+
+    span{
+        display: flex;
+        padding-left: 12px;
+        /* display: flex;
+        text-align: left;
+        width: 272px; */
+    }
+
+    span div{
+        display: flex;
+        align-items: center;
+        margin-left: 1px;
+    }
+    
+
+
+    #three{
+        font-family: 'Outfit', sans-serif;;
+        width: 82px;
+    }
+    
+    .three{
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+    }
+    
+    
+    
+    #four{
+        font-family: 'Outfit', sans-serif;
+        font-weight: 100;
+        color:hsl(0, 0%, 100%) ;
+        
+    }
+    
+    .four{
+        
+          cursor: pointer;
+          margin-left: 15px;
+    }
+
+
+
+
+    .overlay{
+        position: absolute;
+        top: 92px;
+        left: 195px;
+        width: 309px;
+        height: 250px;
+        border-radius: 11px;
+        background : hsl(178, 100%, 50%);
+        opacity: 0;
+        transition: opacity 0.25s;
+        cursor: pointer;
+        text-align: center;
+      }
+
+
+    
+}
+
+
+
+
+
